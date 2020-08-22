@@ -2,7 +2,7 @@ name: IBM Cloud Auto Restart
 
 on:
   schedule:
-    - cron: '47 8 * * WED'
+    - cron: '47 8 * * WED' #为了避免大家扎堆重启，自己修改一下这里的定时时间。 格式：'分 时 日 月 星期'
 
 jobs:
   ibm-cloud-restart:
